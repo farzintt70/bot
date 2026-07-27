@@ -1,3 +1,4 @@
+import os
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -9,8 +10,8 @@ import requests
 import pytz
 
 # --- Configuration ---
-TOKEN = 'xxx'
-CHAT_ID = 'xxx'
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 ASSETS = {
     "GOLD": "GC=F",
