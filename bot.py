@@ -9,8 +9,8 @@ import requests
 import pytz
 
 # --- Configuration ---
-TOKEN = '8915502033:AAFXLaMS08RrB5aBNMfNmwU-ts8HoJM-FXU'
-CHAT_ID = '-5383638668'
+TOKEN = 'xxx'
+CHAT_ID = 'xxx'
 
 ASSETS = {
     "GOLD": "GC=F",
